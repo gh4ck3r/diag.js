@@ -1,0 +1,278 @@
+/* Paired with javascript  -- [begin] */
+.dz-msg-tbl .body-fields {}
+.dz-msg-tbl .body-fields .type-T {}
+.dz-msg-tbl .body-fields .type-V {}
+.dz-msg-tbl .body-fields .type-D {}
+.dz-msg-tbl .body-fields .type-I {}
+.dz-msg-tbl .body-fields .type-W {}
+.dz-msg-tbl .body-fields .type-E {}
+.dz-msg-tbl .body-fields .type-F {}
+.dz-msg-tbl .body-fields .type-A {}
+/* Paired with javascript  -- [end] */
+
+#DiagZillaMessageViewer{
+/*
+	border: 1px solid red;
+*/
+}
+
+.dz-header {
+/*
+	border: 1px solid red;
+*/
+}
+
+.dz-control {
+}
+
+.dz-control .msg-type>ul {
+	width: 14em;
+	margin: 0 0 0 0;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.dz-control .msg-type>ul>li {
+	font-weight: bold;
+	display:inline;
+}
+
+.dz-control td {
+	padding-right: 1em;
+}
+
+.dz-control td>* {
+	display:inline;
+}
+
+.dz-control .status .msgcnt {
+	width : 10em;
+}
+
+.dz-body {
+	border: 1px solid black;
+}
+
+.dz-msg-tbl {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+.dz-msg-tbl tr {
+	font: 12px dejavu sans mono, arial, sans-serif;
+}
+
+.dz-msg-tbl th, .dz-msg-tbl td {
+	overflow:hidden;
+	padding-left: 5px;
+	/* right padding will be on '.dz-msg-tbl .header-fields .separator' */
+	padding-right: 0px;
+}
+
+.dz-msg-tbl th:last-child, .dz-msg-tbl td:last-child {
+	min-width: 100%;
+}
+
+.dz-msg-tbl .header-fields {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+.dz-msg-tbl .header-fields > th {
+	border: 1px solid black;
+	background: #D3D3D3;
+	text-align: center;
+	white-space : nowrap;
+}
+
+.dz-msg-tbl .header-fields > th>div {
+	position: relative;
+	text-overflow: ellipsis;
+}
+
+.dz-msg-tbl .header-fields .separator {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 3px;
+	height: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0 0 0 0;
+	cursor: e-resize;
+}
+
+.dz-msg-tbl .header-fields>th:last-child {
+}
+
+.dz-body .div-body {
+	overflow-x: auto;
+	overflow-y: scroll;
+	position: relative;
+}
+
+.dz-body .div-body .scroll-padding {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.dz-body .div-body .dz-msg-tbl {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.dz-body .body-fields {
+}
+
+.dz-msg-tbl .body-fields>tr {
+}
+
+.dz-msg-tbl .body-fields>tr:hover {
+	background: #E8E8E8;
+}
+
+.dz-msg-tbl .body-fields>tr.selected{
+	color: white;
+	background: #F07746;
+}
+
+.dz-msg-tbl .body-fields td {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+/*
+*/
+	cursor: default;
+	text-overflow: ellipsis
+}
+
+.dz-control .msg-type li[value=T]>label, .dz-msg-tbl .body-fields .type-T {
+	color: #A31B00;
+}
+
+.dz-control .msg-type li[value=V]>label, .dz-msg-tbl .body-fields .type-V {
+	color: black;
+}
+
+.dz-control .msg-type li[value=D]>label, .dz-msg-tbl .body-fields .type-D {
+	color: blue;
+}
+
+.dz-control .msg-type li[value=I]>label, .dz-msg-tbl .body-fields .type-I {
+	color: green;
+}
+
+.dz-control .msg-type li[value=W]>label, .dz-msg-tbl .body-fields .type-W {
+	color: orangered;
+}
+
+.dz-control .msg-type li[value=E]>label, .dz-msg-tbl .body-fields .type-E {
+	color: magenta;
+}
+
+.dz-control .msg-type li[value=F]>label, .dz-msg-tbl .body-fields .type-F {
+	color: red;
+}
+
+.dz-control .msg-type li[value=F]>label, .dz-msg-tbl .body-fields .type-A {
+	color: red;
+}
+
+.dz-control .connection>button {
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .timestamp{
+	width: 8em;
+	text-align: center;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .processname{
+	width: 12em;
+	text-align: center;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .pid {
+	width: 3em;
+	text-align: center;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .tid {
+	width: 3em;
+	text-align: center;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .filename {
+	width: 13em;
+	text-align: right;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .line {
+	width: 5em;
+	text-align: right;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .function {
+	width: 150px;
+	text-align: right;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .stackdepth {
+	width: 2.5em;
+	text-align: center;
+}
+
+/* Paired with javascript */
+.dz-msg-tbl .message {
+	vertical-align:text-top;
+	white-space: nowrap;
+/*
+*/
+}
+
+.dz-msg-tbl .filter {
+	width: 0px;
+	vertical-align:text-top;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0 0 0 0;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.dz-msg-tbl .filter>button {
+	width: 100%;
+	height: 100%;
+}
+
+.dz-msg-tbl .filter>button>span.ui-button-text {
+	display: none;
+}
+
+.hidden {
+	visibility: hidden;
+}
